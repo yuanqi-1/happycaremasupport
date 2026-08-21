@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>开心宠物相机</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: #f5f5f7; color: #1d1d1f; padding: 24px;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } }
+  .card {
+    max-width: 520px; width: 100%; text-align: center;
+    background: #fff; border-radius: 24px; padding: 48px 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    .card { background: #1c1c1e; box-shadow: none; }
+  }
+  .icon { font-size: 56px; margin-bottom: 16px; }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  .tagline { font-size: 16px; opacity: .65; margin-bottom: 36px; line-height: 1.6; }
+  .links { display: flex; flex-direction: column; gap: 14px; }
+  .links a {
+    display: block; padding: 15px 20px; border-radius: 14px;
+    background: #ff9500; color: #fff; text-decoration: none;
+    font-size: 17px; font-weight: 600;
+  }
+  .links a.secondary { background: #e8e8ed; color: #1d1d1f; }
+  @media (prefers-color-scheme: dark) { .links a.secondary { background: #2c2c2e; color: #f5f5f7; } }
+  footer { margin-top: 36px; font-size: 13px; opacity: .5; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon">🐾</div>
+    <h1>开心宠物相机</h1>
+    <p class="tagline">吸引注意、设备端识别猫狗、辅助取景并抓住合适瞬间。<br>无需账号，影像不上传。</p>
+    <nav class="links">
+      <a href="privacy.html">隐私政策</a>
+      <a class="secondary" href="support.html">技术支持</a>
+    </nav>
+    <footer>© 2026 开心宠物相机</footer>
+  </main>
+</body>
+</html>
