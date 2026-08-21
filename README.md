@@ -23,7 +23,6 @@
 文案源头在应用主仓库 `docs/上架合规/`。修改后直接编辑这里的 HTML 并推送，
 GitHub Pages 约一分钟内自动更新。
 
-## ⚠️ 提交 App Store 前必查
+## 支持邮箱
 
-`support.html` 中的支持邮箱若仍为占位符 `support@example.com`，需替换为真实邮箱后
-再在 App Store Connect 填写 Support URL。
+Happyanimals@163.com（已写入 support.html）
