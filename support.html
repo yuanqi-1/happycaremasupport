@@ -3,116 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="开心宠物相机 · 技术支持 — 更新及生效日期：2026年10月9日">
 <title>开心宠物相机 · 技术支持</title>
+<link rel="alternate" hreflang="en" href="support-en.html">
 <style>
-  :root { color-scheme: light dark; }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
-    background: #f5f5f7; color: #1d1d1f; padding: 24px 16px 64px;
-    line-height: 1.75; font-size: 16px;
-  }
-  @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } }
-  article { max-width: 680px; margin: 0 auto; }
-  header { text-align: center; margin-bottom: 32px; }
-  header a.home { text-decoration: none; font-size: 14px; color: #ff9500; }
-  h1 { font-size: 26px; margin: 10px 0 12px; }
-  .meta { font-size: 14px; opacity: .6; }
-  .intro { background: #fff; border-radius: 16px; padding: 20px; margin-bottom: 24px; }
-  @media (prefers-color-scheme: dark) { .intro { background: #1c1c1e; } }
-  h2 { font-size: 18px; margin: 32px 0 12px; }
-  h3 { font-size: 16px; margin: 20px 0 8px; }
-  p { margin: 10px 0; }
-  ul { padding-left: 22px; margin: 10px 0; }
-  li { margin: 6px 0; }
-  strong { font-weight: 600; }
-  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
-  th, td { border: 1px solid rgba(128,128,128,.3); padding: 10px 12px; text-align: left; vertical-align: top; }
-  th { background: rgba(128,128,128,.12); }
-  .contact {
-    background: #fff; border-radius: 16px; padding: 24px; margin: 16px 0;
-    border: 2px solid #ff9500;
-  }
-  @media (prefers-color-scheme: dark) { .contact { background: #1c1c1e; } }
-  .contact a { color: #ff9500; }
-  .placeholder-note { color: #c0392b; font-weight: 600; font-size: 13px; }
-  footer { margin-top: 48px; font-size: 13px; opacity: .5; }
+  :root { color-scheme: light dark; --bg:#f5f5f7; --card:#fff; --text:#202124; --muted:#62656b; --link:#925000; --border:#d7d9dd; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px 18px 56px; background:var(--bg); color:var(--text); font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif; overflow-wrap:break-word; }
+  article, main { max-width:760px; margin:auto; }
+  header { margin-bottom:28px; }
+  h1 { font-size:clamp(25px,5vw,34px); line-height:1.3; margin:16px 0 10px; }
+  h2 { font-size:21px; line-height:1.45; margin:34px 0 12px; }
+  h3 { font-size:17px; line-height:1.5; margin:24px 0 8px; }
+  p { margin:10px 0; }
+  a { color:var(--link); text-underline-offset:3px; }
+  a:focus-visible { outline:3px solid var(--link); outline-offset:5px; border-radius:3px; }
+  ul, ol { padding-left:24px; margin:10px 0; }
+  li { margin:7px 0; }
+  .meta, footer { color:var(--muted); font-size:14px; }
+  .intro, .contact { background:var(--card); border:1px solid var(--border); border-radius:18px; padding:20px 24px; margin:20px 0; }
+  .contact h2 { margin-top:0; }
+  .language { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0; font-size:14px; }
+  .language a { padding:5px 12px; border:1px solid var(--border); border-radius:999px; }
+  .language a[aria-current] { background:var(--card); font-weight:600; text-decoration:none; }
+  .table-wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin:12px 0; }
+  caption { text-align:left; margin-bottom:8px; font-weight:600; }
+  th,td { text-align:left; vertical-align:top; border:1px solid var(--border); padding:10px; }
+  th { background:var(--card); }
+  footer { margin-top:42px; padding-top:18px; border-top:1px solid var(--border); }
+  .home-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+  .home-links a { display:block; padding:16px; background:var(--card); border:1px solid var(--border); border-radius:14px; font-weight:600; }
+  .home-links span { display:block; color:var(--muted); font-weight:400; font-size:14px; }
+  @media(max-width:440px) { .intro,.contact { padding:16px; } .home-links { grid-template-columns:1fr; } }
+  @media(prefers-color-scheme:dark) { :root { --bg:#101114; --card:#1d1f24; --text:#f5f5f7; --muted:#b1b5bf; --link:#ffc06c; --border:#41454d; } }
 </style>
 </head>
 <body>
-<article>
-  <header>
-    <a class="home" href="index.html">← 开心宠物相机</a>
-    <h1>开心宠物相机 · 技术支持</h1>
-    <p class="meta">更新日期：2026年8月21日<br>适用版本：1.0.0 及以上</p>
-  </header>
+<article aria-labelledby="page-title">
+<header>
+  <a href="index.html">← 开心宠物相机</a>
+  <nav class="language" aria-label="页面语言"><a href="support.html" lang="zh-Hans" hreflang="zh-Hans" aria-current="page">简体中文</a><a href="support-en.html" lang="en" hreflang="en">English</a></nav>
+  <h1 id="page-title">开心宠物相机 · 技术支持</h1>
+  <p class="meta">更新及生效日期：2026年10月9日</p>
+</header>
 
-  <section class="intro">
-    <p>开心宠物相机是一款面向宠物拍摄的相机应用：用声音与动画吸引宠物看镜头，在设备端识别猫狗、辅助取景，并在画面合适时自动抓拍。本页面提供使用帮助、常见问题解答与联系方式。</p>
-  </section>
+<section class="intro"><p>开心宠物相机为 iPhone 和 iPad 提供宠物拍摄辅助、拍照、录像、实况、屏幕补光和视频提帧。以下说明按当前项目功能更新；较旧安装版本可能没有全部入口。主要功能在本机完成，无需应用账号。</p></section>
+<h2>一、拍摄与智能出片</h2>
+<h3>基本拍摄、倒计时和对焦怎么使用？</h3>
+<p>拍摄页可切换拍照、录像和实况。倒计时支持3、5、10秒；照片模式还可使用30秒连拍。录像前可选择设备支持的 HD / 4K 与帧率，开始录制后无法更改。</p>
+<p>普通取景可轻点重新对焦，长按可对焦并锁定；录像中轻点可对焦并锁定。在一键出片中点按识别到的宠物可锁定主角并自动缩放，再点取景画面可解除。</p>
+<h3>如何使用“宠物一键出片”？</h3>
+<p>打开拍摄页的“智能出片”，选择“宠物一键出片”。应用会切换到后置拍照并持续寻找合适时机自动抓拍；可在同一菜单暂停、继续或关闭。多只宠物同框时，可点按识别框选择主角。</p>
+<p>保持设备稳定，让猫狗在充足光线下清晰入镜。宠物太小、移动过快、遮挡、对焦未稳或光线不足都可能影响抓拍；不会保证每个动作都拍到。</p>
+<h3>如何从新录制的视频提取照片？</h3>
+<p>在“智能出片”选择“录像提取照片”，会切换到录像并开始录制，点击拍摄键结束。应用保留原视频，并在本机挑选精彩照片保存到系统相册；通常目标约8张，实际数量取决于内容和设备状态。它更适合奔跑或动作较多的宠物。</p>
+<p>提帧需要时间，进入后台后能否继续由系统决定；重新打开应用可恢复未完成任务。电量、发热或存储不足也可能影响处理，请先查看页面提示及待保存作品。</p>
+<h3>如何从相册里已有的视频提取照片？</h3>
+<ol>
+  <li>在“智能出片”选择“导入视频提取照片”，通过系统选择器选择一个视频。</li>
+  <li>设置分析区间，使用智能推荐，或通过时间轴、逐帧调整手动挑选瞬间。</li>
+  <li>点击候选照片放大查看，勾选后保存到系统相册。</li>
+</ol>
+<p>单次智能推荐分析区间最多5分钟，较长视频可分段处理；视频文件需不超过2 GB，最多保留24张未保存候选照片。位于 iCloud 的视频可能需要系统下载，请检查网络及可用存储。</p>
+<p>关闭页面会保留本机草稿，下次可继续；“丢弃”草稿会删除应用内导入副本，新视频导入成功会替换旧草稿，不删除相册原视频。如果保存被中断或结果待确认，请先检查系统相册，再按提示确认或重试，避免重复保存。</p>
+<h2>二、宠物吸引、滤镜与补光</h2>
+<h3>声音、动画和主人录音怎么使用？</h3>
+<p>点击宠物吸引快捷按钮启动，长按可选择声音或动画。声音支持前后镜头，动画仅在前置镜头显示。声音可联动拍照、录像和实况，在吸引设置中可调整播放后的拍摄延迟和声音循环；录像模式启动声音吸引会联动开始录像，点击拍摄键结束。动画使用前置镜头并有启动倒计时，按页面提示使用；再次点按可停止吸引。</p>
+<p>在“宠物吸引”的“主人原声”中录制、试听或删除声音，最多5条、每条10秒，录制需要麦克风权限。无声时检查设备音量、音频输出和播放状态；播放声也可能进入录像或实况音轨。</p>
+<h3>滤镜是否会影响录像和实况？</h3>
+<p>照片模式可实时预览宠物滤镜，并调节0–100%强度；保存普通照片时应用对应效果。生日、圣诞、新春、冬至和南瓜主题包含装饰效果。录像与实况不应用这些照片滤镜，选择“原片”可恢复普通照片原始效果。</p>
+<h3>前置和后置补光有什么区别？</h3>
+<p>前置镜头使用屏幕补光，可调颜色和亮度，并选择单色或双色；双色支持左右或上下分区、拖动分区比例及倾斜调整。可在取景框外的补光区域左右滑动切换预设色。iOS 17.2 及以上的前置拍摄页还支持音量键切换预设色。</p>
+<p>后置镜头在设备支持时使用常亮灯或拍照闪光灯；录像使用常亮补光。部分镜头或设备不支持这些功能。请在录像开始前设置屏幕补光亮度，录制期间亮度锁定。离开相关拍摄状态时，应用恢复屏幕亮度设置。</p>
+<h2>三、权限、保存与常见问题</h2>
+<h3>实况照片为什么不可用？</h3>
+<p>实况需要设备和镜头支持，并需要麦克风权限。开启实况后，前台准备会短时缓存快门前的声音，退出实况或进入后台后停止。拒绝麦克风时仍可普通拍照和录制无声视频，但无法使用实况。到系统“设置”中的本应用权限页面检查授权。</p>
+<h3>作品保存在哪里？保存失败怎么办？</h3>
+<p>成功保存的照片、视频、实况及提帧照片在系统相册中。保存需要“仅添加”权限；导入只处理您在系统选择器主动选中的视频，不扫描整个相册。</p>
+<p>保存失败或结果待确认时，打开拍摄页的 ⓘ →“帮助与隐私”→“待保存作品”，按提示重试、确认或主动丢弃。先检查相册权限和可用空间；待保存队列达到限额时需先处理现有作品。删除应用及其数据前，请确认重要作品已保存。如果提示“尚未安全写入磁盘，请勿退出应用”，请保持应用开启，恢复存储条件后重试。</p>
+<h3>在哪里切换语言、重看教程？</h3>
+<p>打开 ⓘ →“帮助与隐私”，可重看新手教程及切换应用语言。支持简体中文、繁体中文、英语、日语、韩语和印度尼西亚语；选择“跟随系统”可恢复系统语言偏好。首次教程完成或跳过后不会每次启动自动出现。iPad 支持横竖屏、分屏与窗口大小适配。</p>
+<h3>发热或处理速度变慢怎么办？</h3>
+<p>长时间取景、录像及视频分析会增加能耗。暂停拍摄，让设备降温，检查剩余空间，缩短视频分析区间；系统可能限制后台处理，重新打开应用查看进度。避免在仍有未保存作品时删除应用。</p>
+<div class="table-wrap"><table>
+  <caption>权限用途与拒绝后的影响</caption>
+  <thead><tr><th scope="col">权限或操作</th><th scope="col">用途</th><th scope="col">未授权时</th></tr></thead>
+  <tbody>
+  <tr><td>相机</td><td>取景、拍摄与实时识别</td><td>不能相机拍摄及实时识别</td></tr>
+  <tr><td>麦克风</td><td>录像声音、实况准备与声音、主人录音</td><td>可普通拍照及无声录像；实况和录音不可用</td></tr>
+  <tr><td>运动与健身</td><td>水平提示和稳定性辅助</td><td>相关运动辅助可能不可用</td></tr>
+  <tr><td>相册（仅添加）</td><td>把作品保存到系统相册</td><td>不能写入系统相册</td></tr>
+  <tr><td>系统视频选择器</td><td>导入您选中的视频</td><td>不选择视频就不会导入；无需整个相册读取授权</td></tr>
+  </tbody>
+</table></div>
+<h2>四、隐私摘要</h2>
+<p>识别、滤镜和视频提帧在本机完成；应用不接入账号、广告、统计或媒体上传。录音、恢复作品、导入草稿及未完成提帧任务可能保留本地副本，并排除系统备份。系统相册与 iCloud 由您的系统设置管理。详见<a href="privacy.html">完整隐私政策</a>。</p>
+<section class="contact" id="contact">
+  <h2>五、联系我们</h2>
+  <p>使用<a href="https://github.com/yuanqi-1/happycaremasupport/issues/new">GitHub Issues 提交问题或建议</a>，或先<a href="https://github.com/yuanqi-1/happycaremasupport/issues">查看已有问题</a>。提交需要 GitHub 账号；阅读本网站不需要登录。</p>
+  <p>请提供设备型号、iOS 或 iPadOS 版本、应用版本、出现问题的功能、操作步骤及提示的简短描述。应用版本可在“帮助与隐私”中查看。</p>
+  <p>请勿发送私人照片、视频、录音、完整日志、个人联系信息或凭据。公开反馈可被其他人看到；支持反馈不会自动读取您的设备数据。</p>
+</section>
 
-  <h2>一、常见问题</h2>
-
-  <h3>1. 拍摄的照片、视频和实况照片保存在哪里？</h3>
-  <p>全部保存在您的<strong>系统相册</strong>中。首次保存作品时，应用才会请求「仅添加到相册」权限。本应用<strong>不会读取</strong>您的系统相册，也不会在应用内建立私有图库。</p>
-
-  <h3>2. 「宠物一键出片」怎么使用？为什么没有自动拍摄？</h3>
-  <ul>
-    <li>在<strong>后置镜头 + 拍照模式</strong>下，点击顶部的「宠物一键出片」开启。</li>
-    <li>应用会在设备端识别猫狗，并在画面稳定、对焦和曝光条件合适时自动拍摄。</li>
-    <li>未自动拍摄的常见原因：宠物距离太远或太小、光线过暗、画面晃动剧烈、没有识别到猫或狗。</li>
-    <li>多只宠物同框时，可点按识别框锁定想拍的主角。</li>
-  </ul>
-
-  <h3>3. 宠物吸引的声音和动画为什么不出现？</h3>
-  <ul>
-    <li><strong>动画仅在前置镜头下显示</strong>；声音在前、后镜头都可用。</li>
-    <li>没有声音时请检查手机的静音开关和音量。</li>
-    <li>长按拍摄页底部的爪印快捷按钮，可以重新选择吸引方式。</li>
-  </ul>
-
-  <h3>4. 拍摄的实况照片为什么没有声音？</h3>
-  <p>拍摄实况照片需要<strong>麦克风权限</strong>。若您曾拒绝该权限：前往 iOS「设置」→「开心宠物相机」→ 开启「麦克风」后重试。拒绝麦克风权限时，录像仍可进行（无声），但无法拍摄包含声音的实况照片。</p>
-
-  <h3>5. 屏幕补光如何使用？</h3>
-  <p>屏幕补光在<strong>前置镜头</strong>下可用：可选择补光颜色并调节亮度。离开拍摄页后，屏幕亮度会自动恢复为原值，无需手动调整。</p>
-
-  <h3>6. 新手教程只出现一次，在哪里可以再看功能说明？</h3>
-  <p>新手教程仅在首次安装时展示。之后可随时点击拍摄页<strong>右上角 ⓘ 按钮</strong>，打开「帮助与隐私」查看各功能说明、权限用途和完整隐私政策。</p>
-
-  <h3>7. 应用电量、发热或长时间使用有影响吗？</h3>
-  <p>长时间连续取景（如 30 秒连拍、长时间录像）时设备可能出现正常范围内的发热。建议在长时间拍摄间隙退出取景页面让设备休息。</p>
-
-  <h2>二、权限用途一览</h2>
-  <table>
-    <tr><th>权限</th><th>用途</th><th>拒绝后的影响</th></tr>
-    <tr><td>相机</td><td>实时取景、拍照、录像、实况照片和设备端宠物识别</td><td>无法使用核心拍摄与识别功能</td></tr>
-    <tr><td>麦克风</td><td>录制视频和实况照片中的现场声音</td><td>可录制无声视频；无法拍摄实况照片</td></tr>
-    <tr><td>相册（仅添加）</td><td>把您主动拍摄的作品写入系统相册</td><td>拍摄结果无法保存到系统相册</td></tr>
-  </table>
-
-  <h2>三、隐私说明（摘要）</h2>
-  <ul>
-    <li>照片、视频与实况照片仅保存在您的系统相册</li>
-    <li>宠物识别、自动取景全部在设备端完成，不上传任何画面或识别结果</li>
-    <li>不接入账号、广告、统计或第三方跟踪</li>
-  </ul>
-  <p>完整内容见<a href="privacy.html">《开心宠物相机隐私政策》</a>。</p>
-
-  <section class="contact">
-    <h2 style="margin-top:0;">四、联系我们</h2>
-    <p>如果您在使用中遇到问题，或有功能建议，欢迎通过以下方式联系：</p>
-    <p>支持邮箱：<strong><a href="mailto:Happyanimals@163.com">Happyanimals@163.com</a></strong></p>
-    <p>联系时请尽量附上：iPhone 机型、iOS 版本、应用版本（拍摄页右上角 ⓘ →「帮助与隐私」→ 应用信息可查看），以及问题的具体表现。</p>
-    <p>我们通常会在 <strong>3 个工作日内</strong>回复。</p>
-  </section>
-
-  <h2>五、更多应用内帮助</h2>
-  <p>拍摄页右上角 <strong>ⓘ</strong> →「帮助与隐私」：包含宠物一键出片、宠物吸引、屏幕补光、录像与实况的使用说明，以及完整隐私政策。</p>
-
-  <footer>
-    <p>© 2026 开心宠物相机</p>
-  </footer>
+<footer><a href="privacy.html">隐私政策</a><p>© 2026 开心宠物相机</p></footer>
 </article>
 </body>
 </html>
